@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750">
+  <rect width="600" height="750" fill="#F1DCD9"/>
+  <rect x="24" y="24" width="552" height="702" fill="none" stroke="#2B1220" stroke-opacity="0.25" stroke-width="1.5"/>
+  <text x="300" y="700" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#2B1220" opacity="0.55">NStore sample</text>
+  <text x="300" y="345" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#2B1220"><tspan x="300" dy="0">Dune Linen</tspan><tspan x="300" dy="42">Shirt</tspan></text>
+</svg>

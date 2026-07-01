@@ -1,0 +1,36 @@
+{
+  "meta": { "title": "NStore — Clothing & Wigs" },
+  "nav": { "shop": "Shop", "clothing": "Clothing", "wigs": "Wigs", "cart": "Cart" },
+  "hero": {
+    "eyebrow": "New arrivals weekly",
+    "title": "Made to be worn. Made to be you.",
+    "subtitle": "Everyday clothing and hand-tied wigs, picked the way you'd pick a swatch: by feel, by shade, by how it makes you stand.",
+    "cta": "Browse the collection"
+  },
+  "swatch": { "label": "Shop by shade" },
+  "filter": { "all": "All", "clothing": "Clothing", "wigs": "Wigs" },
+  "product": {
+    "addToCart": "Add to cart",
+    "viewDetails": "View details",
+    "selectOption": "Select",
+    "from": "From",
+    "close": "Close"
+  },
+  "cart": {
+    "title": "Your bag",
+    "empty": "Your bag is empty. Go find something you love.",
+    "subtotal": "Subtotal",
+    "remove": "Remove",
+    "quantity": "Qty",
+    "checkoutWhatsapp": "Order via WhatsApp",
+    "checkoutEmail": "Order via Email",
+    "note": "We'll confirm sizing, delivery, and payment details with you directly.",
+    "openCart": "Open cart"
+  },
+  "footer": {
+    "tagline": "Small-batch clothing and wigs, made with care.",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "langLabel": "Language"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "meta": { "title": "NStore — Vêtements & Perruques" },
+  "nav": { "shop": "Boutique", "clothing": "Vêtements", "wigs": "Perruques", "cart": "Panier" },
+  "hero": {
+    "eyebrow": "Nouveautés chaque semaine",
+    "title": "Fait pour être porté. Fait pour vous.",
+    "subtitle": "Des vêtements du quotidien et des perruques nouées à la main, choisis comme on choisit une nuance : au toucher, à la couleur, à la façon dont ça vous fait tenir.",
+    "cta": "Découvrir la collection"
+  },
+  "swatch": { "label": "Trouver par nuance" },
+  "filter": { "all": "Tout", "clothing": "Vêtements", "wigs": "Perruques" },
+  "product": {
+    "addToCart": "Ajouter au panier",
+    "viewDetails": "Voir les détails",
+    "selectOption": "Choisir",
+    "from": "À partir de",
+    "close": "Fermer"
+  },
+  "cart": {
+    "title": "Votre panier",
+    "empty": "Votre panier est vide. Trouvez quelque chose que vous aimez.",
+    "subtotal": "Sous-total",
+    "remove": "Retirer",
+    "quantity": "Qté",
+    "checkoutWhatsapp": "Commander via WhatsApp",
+    "checkoutEmail": "Commander par e-mail",
+    "note": "Nous confirmerons la taille, la livraison et le paiement directement avec vous.",
+    "openCart": "Ouvrir le panier"
+  },
+  "footer": {
+    "tagline": "Vêtements et perruques en petites séries, faits avec soin.",
+    "contact": "Contact",
+    "rights": "Tous droits réservés.",
+    "langLabel": "Langue"
+  }
+}
