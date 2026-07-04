@@ -46,7 +46,10 @@
       })
       .join("");
 
-    if (window.i18n) window.i18n.setLang(window.i18n.getLang());
+    const viewDetailsLabel = (window.i18n && window.i18n.t("product.viewDetails")) || "View details";
+    grid.querySelectorAll('[data-i18n="product.viewDetails"]').forEach((el) => {
+      el.textContent = viewDetailsLabel;
+    });
 
     grid.querySelectorAll("[data-open-product]").forEach((el) => {
       el.addEventListener("click", () => openProductModal(el.getAttribute("data-open-product")));
@@ -118,7 +121,9 @@
       closeProductModal();
     });
 
-    if (window.i18n) window.i18n.setLang(window.i18n.getLang());
+    const addToCartLabel = (window.i18n && window.i18n.t("product.addToCart")) || "Add to cart";
+    const addBtn = modal.querySelector("[data-modal-add]");
+    if (addBtn) addBtn.textContent = addToCartLabel;
   }
 
   document.addEventListener("DOMContentLoaded", () => {
