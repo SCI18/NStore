@@ -1,6 +1,6 @@
 {
   "meta": { "title": "NStore — Clothing & Wigs" },
-  "nav": { "shop": "Shop", "clothing": "Clothing", "wigs": "Wigs", "cart": "Cart" },
+  "nav": { "shop": "Shop", "clothing": "Clothing", "wigs": "Wigs", "cart": "Cart", "about": "About", "contact": "Contact" },
   "hero": {
     "eyebrow": "New arrivals weekly",
     "title": "Made to be worn. Made to be you.",
@@ -31,6 +31,42 @@
     "tagline": "Small-batch clothing and wigs, made with care.",
     "contact": "Contact",
     "rights": "All rights reserved.",
-    "langLabel": "Language"
+    "langLabel": "Language",
+    "privacy": "Privacy Policy"
+  },
+  "about": {
+    "eyebrow": "Our story",
+    "title": "About NStore",
+    "intro": "NStore started as a small, close-to-home project: everyday clothing and hand-tied wigs, chosen the way you'd choose a swatch — by feel, by shade, by how it makes you stand.",
+    "body1": "We work in small batches rather than mass production, which means what you see in the shop is genuinely what's in stock, not a catalogue of things that might arrive eventually. New pieces go up as they're ready, from track suits built for cold-weather days to wigs sourced and hand-checked before they ever reach the shop.",
+    "body2": "Every order is confirmed directly with you — sizing, delivery, and payment — because we'd rather get those details right than automate them away."
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Contact us",
+    "intro": "Questions about sizing, stock, or an order? Reach out directly — we reply personally to every message.",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Email",
+    "instagramLabel": "Instagram",
+    "addressLabel": "Location",
+    "formTitle": "Or send a message",
+    "nameField": "Your name",
+    "messageField": "Message",
+    "sendWhatsapp": "Send via WhatsApp",
+    "sendEmail": "Send via Email"
+  },
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "updated": "Last updated: July 2026",
+    "intro": "This page explains what information NStore collects when you use this site and how it's used.",
+    "section1Title": "What we store in your browser",
+    "section1Body": "This site keeps your cart contents and language preference in your browser's local storage. This data stays on your device — it isn't sent to any server or database, and we don't have access to it.",
+    "section2Title": "Ordering",
+    "section2Body": "NStore doesn't process payments online. When you check out, your order details are sent to us via WhatsApp or email, which you send directly using your own WhatsApp or email account, subject to their respective privacy policies.",
+    "section3Title": "Third-party services",
+    "section3Body": "This site loads fonts from Google Fonts and is hosted on Cloudflare Pages. Both may process basic technical information (like your IP address) as part of delivering content, under their own privacy policies.",
+    "section4Title": "Contacting us",
+    "section4Body": "If you have questions about this policy or how your information is handled, contact us using the details on our Contact page."
   }
 }

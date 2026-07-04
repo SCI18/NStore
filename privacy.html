@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en" data-i18n-title="meta.title">
+<html lang="en" data-i18n-title="privacy.title">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NStore — Clothing & Wigs</title>
+  <title>Privacy Policy — NStore</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
@@ -19,9 +19,9 @@
       <a href="index.html" class="wordmark">NStore</a>
       <nav class="site-nav">
         <ul class="site-nav__links">
-          <li><a href="#shop" data-i18n="nav.shop"></a></li>
-          <li><a href="#shop" data-swatch="clothing" data-i18n="nav.clothing"></a></li>
-          <li><a href="#shop" data-swatch="wigs" data-i18n="nav.wigs"></a></li>
+          <li><a href="index.html#shop" data-i18n="nav.shop"></a></li>
+          <li><a href="index.html#shop" data-i18n="nav.clothing"></a></li>
+          <li><a href="index.html#shop" data-i18n="nav.wigs"></a></li>
           <li><a href="about.html" data-i18n="nav.about"></a></li>
           <li><a href="contact.html" data-i18n="nav.contact"></a></li>
         </ul>
@@ -39,38 +39,29 @@
     </div>
   </header>
 
-  <section class="hero">
+  <section class="page-header">
     <div class="container">
-      <div class="hero__inner">
-        <p class="hero__eyebrow" data-i18n="hero.eyebrow"></p>
-        <h1 class="hero__title" data-i18n="hero.title"></h1>
-        <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
-        <a href="#shop" class="btn btn--gold hero__cta" data-i18n="hero.cta"></a>
-      </div>
-
-      <div class="swatch-rail">
-        <p class="swatch-rail__label" data-i18n="swatch.label"></p>
-        <div class="swatch-rail__row">
-          <button type="button" class="swatch is-active" data-swatch="all">
-            <span class="swatch__dot"></span>
-            <span data-i18n="filter.all"></span>
-          </button>
-          <button type="button" class="swatch" data-swatch="clothing">
-            <span class="swatch__dot"></span>
-            <span data-i18n="filter.clothing"></span>
-          </button>
-          <button type="button" class="swatch" data-swatch="wigs">
-            <span class="swatch__dot"></span>
-            <span data-i18n="filter.wigs"></span>
-          </button>
-        </div>
-      </div>
+      <p class="page-header__eyebrow" data-i18n="privacy.eyebrow"></p>
+      <h1 class="page-header__title" data-i18n="privacy.title"></h1>
     </div>
   </section>
 
-  <section class="shop" id="shop">
-    <div class="container">
-      <div class="shop__grid" data-product-grid></div>
+  <section class="page-content">
+    <div class="container page-content__inner">
+      <p data-i18n="privacy.updated"></p>
+      <p data-i18n="privacy.intro"></p>
+
+      <h2 data-i18n="privacy.section1Title"></h2>
+      <p data-i18n="privacy.section1Body"></p>
+
+      <h2 data-i18n="privacy.section2Title"></h2>
+      <p data-i18n="privacy.section2Body"></p>
+
+      <h2 data-i18n="privacy.section3Title"></h2>
+      <p data-i18n="privacy.section3Body"></p>
+
+      <h2 data-i18n="privacy.section4Title"></h2>
+      <p data-i18n="privacy.section4Body"></p>
     </div>
   </section>
 
@@ -119,17 +110,9 @@
     </div>
   </aside>
 
-  <!-- Product modal -->
-  <div class="overlay" data-modal-overlay></div>
-  <div class="modal" data-product-modal>
-    <button type="button" class="modal__close" data-modal-close aria-label="Close">&times;</button>
-    <div class="modal-product" data-modal-body></div>
-  </div>
-
   <script src="js/config.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/cart.js"></script>
-  <script src="js/app.js"></script>
   <script src="js/pwa.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
