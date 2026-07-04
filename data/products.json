@@ -1,156 +1,1182 @@
 [
   {
-    "id": "cw-001",
-    "category": "clothing",
-    "image": "images/sample/cw-001.svg",
-    "price": 68.00,
-    "name": { "en": "Emberline Wrap Dress", "fr": "Robe Portefeuille Emberline" },
-    "description": {
-      "en": "A soft draped wrap dress in warm rosewood, cut for movement.",
-      "fr": "Une robe portefeuille souple et drapée en rosewood chaud, coupée pour le mouvement."
-    },
-    "options": [
-      { "type": "size", "label": { "en": "Size", "fr": "Taille" }, "values": ["XS", "S", "M", "L", "XL"] }
-    ]
-  },
-  {
-    "id": "cw-002",
-    "category": "clothing",
-    "image": "images/sample/cw-002.svg",
-    "price": 74.00,
-    "name": { "en": "Sandline Wide Trousers", "fr": "Pantalon Large Sandline" },
-    "description": {
-      "en": "High-waisted wide-leg trousers in brushed cotton twill.",
-      "fr": "Pantalon large taille haute en coton brossé."
-    },
-    "options": [
-      { "type": "size", "label": { "en": "Size", "fr": "Taille" }, "values": ["XS", "S", "M", "L", "XL"] }
-    ]
-  },
-  {
-    "id": "cw-003",
-    "category": "clothing",
-    "image": "images/sample/cw-003.svg",
-    "price": 89.00,
-    "name": { "en": "Meridian Knit Sweater", "fr": "Pull en Maille Meridian" },
-    "description": {
-      "en": "A relaxed rib-knit sweater with a gently dropped shoulder.",
-      "fr": "Un pull en maille côtelée décontracté avec une épaule légèrement tombante."
-    },
-    "options": [
-      { "type": "size", "label": { "en": "Size", "fr": "Taille" }, "values": ["S", "M", "L", "XL"] }
-    ]
-  },
-  {
-    "id": "cw-004",
-    "category": "clothing",
-    "image": "images/sample/cw-004.svg",
-    "price": 54.00,
-    "name": { "en": "Dune Linen Shirt", "fr": "Chemise en Lin Dune" },
-    "description": {
-      "en": "An oversized linen shirt that softens with every wash.",
-      "fr": "Une chemise en lin oversize qui s'adoucit à chaque lavage."
-    },
-    "options": [
-      { "type": "size", "label": { "en": "Size", "fr": "Taille" }, "values": ["XS", "S", "M", "L", "XL"] }
-    ]
-  },
-  {
     "id": "ts-001",
     "category": "clothing",
-    "image": "images/Suit%20B%26W%201.jpg",
-    "price": 50.00,
-    "name": { "en": "B&W Track Suit — Style 1", "fr": "Survêtement N&B — Style 1" },
+    "image": "images/ts-001.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 001",
+      "fr": "Survêtement 001"
+    },
     "description": {
-      "en": "A clean black-and-white track suit, everyday comfort with a sharp finish.",
-      "fr": "Un survêtement noir et blanc épuré, confortable au quotidien avec une finition nette."
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
     },
     "options": [
-      { "type": "size", "label": { "en": "Size", "fr": "Taille" }, "values": ["S", "M", "L", "XL"] }
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
     ]
   },
   {
     "id": "ts-002",
     "category": "clothing",
-    "image": "images/Suit%20B%26W%202.jpg",
-    "price": 50.00,
-    "name": { "en": "B&W Track Suit — Style 2", "fr": "Survêtement N&B — Style 2" },
+    "image": "images/ts-002.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 002",
+      "fr": "Survêtement 002"
+    },
     "description": {
-      "en": "A second take on the black-and-white track suit, same comfort, different cut.",
-      "fr": "Une autre version du survêtement noir et blanc, même confort, coupe différente."
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
     },
     "options": [
-      { "type": "size", "label": { "en": "Size", "fr": "Taille" }, "values": ["S", "M", "L", "XL"] }
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
     ]
   },
   {
     "id": "ts-003",
     "category": "clothing",
-    "image": "images/Suit%20Green.jpg",
-    "price": 50.00,
-    "name": { "en": "Green Track Suit", "fr": "Survêtement Vert" },
+    "image": "images/ts-003.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 003",
+      "fr": "Survêtement 003"
+    },
     "description": {
-      "en": "A bold green track suit for everyday wear.",
-      "fr": "Un survêtement vert affirmé pour un usage quotidien."
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
     },
     "options": [
-      { "type": "size", "label": { "en": "Size", "fr": "Taille" }, "values": ["S", "M", "L", "XL"] }
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-004",
+    "category": "clothing",
+    "image": "images/ts-004.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 004",
+      "fr": "Survêtement 004"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-005",
+    "category": "clothing",
+    "image": "images/ts-005.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 005",
+      "fr": "Survêtement 005"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-006",
+    "category": "clothing",
+    "image": "images/ts-006.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 006",
+      "fr": "Survêtement 006"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-007",
+    "category": "clothing",
+    "image": "images/ts-007.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 007",
+      "fr": "Survêtement 007"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-008",
+    "category": "clothing",
+    "image": "images/ts-008.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 008",
+      "fr": "Survêtement 008"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-009",
+    "category": "clothing",
+    "image": "images/ts-009.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 009",
+      "fr": "Survêtement 009"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-010",
+    "category": "clothing",
+    "image": "images/ts-010.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 010",
+      "fr": "Survêtement 010"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-011",
+    "category": "clothing",
+    "image": "images/ts-011.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 011",
+      "fr": "Survêtement 011"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-012",
+    "category": "clothing",
+    "image": "images/ts-012.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 012",
+      "fr": "Survêtement 012"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-013",
+    "category": "clothing",
+    "image": "images/ts-013.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 013",
+      "fr": "Survêtement 013"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-014",
+    "category": "clothing",
+    "image": "images/ts-014.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 014",
+      "fr": "Survêtement 014"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-015",
+    "category": "clothing",
+    "image": "images/ts-015.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 015",
+      "fr": "Survêtement 015"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-016",
+    "category": "clothing",
+    "image": "images/ts-016.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 016",
+      "fr": "Survêtement 016"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-017",
+    "category": "clothing",
+    "image": "images/ts-017.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 017",
+      "fr": "Survêtement 017"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-018",
+    "category": "clothing",
+    "image": "images/ts-018.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 018",
+      "fr": "Survêtement 018"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-019",
+    "category": "clothing",
+    "image": "images/ts-019.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 019",
+      "fr": "Survêtement 019"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ts-020",
+    "category": "clothing",
+    "image": "images/ts-020.jpg",
+    "price": 50.0,
+    "name": {
+      "en": "Track Suit 020",
+      "fr": "Survêtement 020"
+    },
+    "description": {
+      "en": "Warm, everyday track suit.",
+      "fr": "Survêtement chaud pour tous les jours."
+    },
+    "options": [
+      {
+        "type": "size",
+        "label": {
+          "en": "Size",
+          "fr": "Taille"
+        },
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
     ]
   },
   {
     "id": "wg-001",
     "category": "wigs",
-    "image": "images/sample/wg-001.svg",
-    "price": 149.00,
-    "name": { "en": "Honey Balayage Lace Front", "fr": "Lace Front Balayage Miel" },
-    "description": {
-      "en": "Hand-tied lace front with a warm honey balayage melt.",
-      "fr": "Lace front noué à la main avec un dégradé balayage miel chaleureux."
+    "image": "images/wg-001.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 001",
+      "fr": "Perruque 001"
     },
-    "options": [
-      { "type": "length", "label": { "en": "Length", "fr": "Longueur" }, "values": ["14\"", "18\"", "22\""] }
-    ]
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
   },
   {
     "id": "wg-002",
     "category": "wigs",
-    "image": "images/sample/wg-002.svg",
-    "price": 129.00,
-    "name": { "en": "Jet Silk Bob", "fr": "Bob Soie Jet" },
-    "description": {
-      "en": "A sleek chin-length bob in deep jet black, silky finish.",
-      "fr": "Un bob lisse à hauteur du menton, noir jais profond, finition soyeuse."
+    "image": "images/wg-002.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 002",
+      "fr": "Perruque 002"
     },
-    "options": [
-      { "type": "length", "label": { "en": "Length", "fr": "Longueur" }, "values": ["Chin-length", "Shoulder-length"] }
-    ]
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
   },
   {
     "id": "wg-003",
     "category": "wigs",
-    "image": "images/sample/wg-003.svg",
-    "price": 159.00,
-    "name": { "en": "Copper Wave Unit", "fr": "Unité Vague Cuivrée" },
-    "description": {
-      "en": "Loose copper waves with natural-density lace part.",
-      "fr": "Vagues cuivrées souples avec raie en lace de densité naturelle."
+    "image": "images/wg-003.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 003",
+      "fr": "Perruque 003"
     },
-    "options": [
-      { "type": "length", "label": { "en": "Length", "fr": "Longueur" }, "values": ["16\"", "20\"", "24\""] }
-    ]
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
   },
   {
     "id": "wg-004",
     "category": "wigs",
-    "image": "images/sample/wg-004.svg",
-    "price": 139.00,
-    "name": { "en": "Ash Blonde Curl", "fr": "Boucle Blond Cendré" },
-    "description": {
-      "en": "Voluminous curls in a cool ash blonde tone.",
-      "fr": "Boucles volumineuses dans un ton blond cendré froid."
+    "image": "images/wg-004.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 004",
+      "fr": "Perruque 004"
     },
-    "options": [
-      { "type": "length", "label": { "en": "Length", "fr": "Longueur" }, "values": ["14\"", "18\""] }
-    ]
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-005",
+    "category": "wigs",
+    "image": "images/wg-005.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 005",
+      "fr": "Perruque 005"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-006",
+    "category": "wigs",
+    "image": "images/wg-006.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 006",
+      "fr": "Perruque 006"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-007",
+    "category": "wigs",
+    "image": "images/wg-007.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 007",
+      "fr": "Perruque 007"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-008",
+    "category": "wigs",
+    "image": "images/wg-008.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 008",
+      "fr": "Perruque 008"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-009",
+    "category": "wigs",
+    "image": "images/wg-009.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 009",
+      "fr": "Perruque 009"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-010",
+    "category": "wigs",
+    "image": "images/wg-010.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 010",
+      "fr": "Perruque 010"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-011",
+    "category": "wigs",
+    "image": "images/wg-011.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 011",
+      "fr": "Perruque 011"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-012",
+    "category": "wigs",
+    "image": "images/wg-012.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 012",
+      "fr": "Perruque 012"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-013",
+    "category": "wigs",
+    "image": "images/wg-013.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 013",
+      "fr": "Perruque 013"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-014",
+    "category": "wigs",
+    "image": "images/wg-014.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 014",
+      "fr": "Perruque 014"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-015",
+    "category": "wigs",
+    "image": "images/wg-015.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 015",
+      "fr": "Perruque 015"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-016",
+    "category": "wigs",
+    "image": "images/wg-016.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 016",
+      "fr": "Perruque 016"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-017",
+    "category": "wigs",
+    "image": "images/wg-017.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 017",
+      "fr": "Perruque 017"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-018",
+    "category": "wigs",
+    "image": "images/wg-018.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 018",
+      "fr": "Perruque 018"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-019",
+    "category": "wigs",
+    "image": "images/wg-019.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 019",
+      "fr": "Perruque 019"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-020",
+    "category": "wigs",
+    "image": "images/wg-020.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 020",
+      "fr": "Perruque 020"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-021",
+    "category": "wigs",
+    "image": "images/wg-021.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 021",
+      "fr": "Perruque 021"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-022",
+    "category": "wigs",
+    "image": "images/wg-022.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 022",
+      "fr": "Perruque 022"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-023",
+    "category": "wigs",
+    "image": "images/wg-023.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 023",
+      "fr": "Perruque 023"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-024",
+    "category": "wigs",
+    "image": "images/wg-024.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 024",
+      "fr": "Perruque 024"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-025",
+    "category": "wigs",
+    "image": "images/wg-025.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 025",
+      "fr": "Perruque 025"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-026",
+    "category": "wigs",
+    "image": "images/wg-026.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 026",
+      "fr": "Perruque 026"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-027",
+    "category": "wigs",
+    "image": "images/wg-027.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 027",
+      "fr": "Perruque 027"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-028",
+    "category": "wigs",
+    "image": "images/wg-028.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 028",
+      "fr": "Perruque 028"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-029",
+    "category": "wigs",
+    "image": "images/wg-029.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 029",
+      "fr": "Perruque 029"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-030",
+    "category": "wigs",
+    "image": "images/wg-030.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 030",
+      "fr": "Perruque 030"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-031",
+    "category": "wigs",
+    "image": "images/wg-031.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 031",
+      "fr": "Perruque 031"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-032",
+    "category": "wigs",
+    "image": "images/wg-032.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 032",
+      "fr": "Perruque 032"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-033",
+    "category": "wigs",
+    "image": "images/wg-033.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 033",
+      "fr": "Perruque 033"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-034",
+    "category": "wigs",
+    "image": "images/wg-034.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 034",
+      "fr": "Perruque 034"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-035",
+    "category": "wigs",
+    "image": "images/wg-035.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 035",
+      "fr": "Perruque 035"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-036",
+    "category": "wigs",
+    "image": "images/wg-036.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 036",
+      "fr": "Perruque 036"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-037",
+    "category": "wigs",
+    "image": "images/wg-037.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 037",
+      "fr": "Perruque 037"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-038",
+    "category": "wigs",
+    "image": "images/wg-038.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 038",
+      "fr": "Perruque 038"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-039",
+    "category": "wigs",
+    "image": "images/wg-039.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 039",
+      "fr": "Perruque 039"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
+  },
+  {
+    "id": "wg-040",
+    "category": "wigs",
+    "image": "images/wg-040.jpg",
+    "price": 80.0,
+    "name": {
+      "en": "Wig 040",
+      "fr": "Perruque 040"
+    },
+    "description": {
+      "en": "Details pending — price and description to be confirmed with supplier.",
+      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
+    },
+    "options": []
   }
 ]
