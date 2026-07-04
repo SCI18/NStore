@@ -56,6 +56,48 @@
     ]
   },
   {
+    "id": "ts-001",
+    "category": "clothing",
+    "image": "images/Suit%20B%26W%201.jpg",
+    "price": 50.00,
+    "name": { "en": "B&W Track Suit — Style 1", "fr": "Survêtement N&B — Style 1" },
+    "description": {
+      "en": "A clean black-and-white track suit, everyday comfort with a sharp finish.",
+      "fr": "Un survêtement noir et blanc épuré, confortable au quotidien avec une finition nette."
+    },
+    "options": [
+      { "type": "size", "label": { "en": "Size", "fr": "Taille" }, "values": ["S", "M", "L", "XL"] }
+    ]
+  },
+  {
+    "id": "ts-002",
+    "category": "clothing",
+    "image": "images/Suit%20B%26W%202.jpg",
+    "price": 50.00,
+    "name": { "en": "B&W Track Suit — Style 2", "fr": "Survêtement N&B — Style 2" },
+    "description": {
+      "en": "A second take on the black-and-white track suit, same comfort, different cut.",
+      "fr": "Une autre version du survêtement noir et blanc, même confort, coupe différente."
+    },
+    "options": [
+      { "type": "size", "label": { "en": "Size", "fr": "Taille" }, "values": ["S", "M", "L", "XL"] }
+    ]
+  },
+  {
+    "id": "ts-003",
+    "category": "clothing",
+    "image": "images/Suit%20Green.jpg",
+    "price": 50.00,
+    "name": { "en": "Green Track Suit", "fr": "Survêtement Vert" },
+    "description": {
+      "en": "A bold green track suit for everyday wear.",
+      "fr": "Un survêtement vert affirmé pour un usage quotidien."
+    },
+    "options": [
+      { "type": "size", "label": { "en": "Size", "fr": "Taille" }, "values": ["S", "M", "L", "XL"] }
+    ]
+  },
+  {
     "id": "wg-001",
     "category": "wigs",
     "image": "images/sample/wg-001.svg",
