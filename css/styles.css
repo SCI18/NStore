@@ -89,11 +89,17 @@ button {
   backdrop-filter: blur(6px);
   border-bottom: 1px solid rgba(43, 18, 32, 0.08);
 }
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 .site-header__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 18px 24px;
+  position: relative;
+  flex-wrap: wrap;
 }
 .wordmark {
   font-family: var(--font-display);
@@ -101,6 +107,11 @@ button {
   letter-spacing: 0.02em;
   color: var(--ink);
   text-decoration: none;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 28px;
 }
 .site-nav {
   display: flex;
@@ -162,6 +173,54 @@ button {
   padding: 0 4px;
 }
 
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+.nav-toggle span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--ink);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.nav-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 860px) {
+  .nav-toggle { display: flex; }
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--sand);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 24px 28px;
+    border-bottom: 1px solid rgba(43, 18, 32, 0.1);
+    box-shadow: 0 12px 20px rgba(43, 18, 32, 0.06);
+  }
+  .site-nav.is-open { display: flex; }
+  .site-nav__links {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+  .site-nav__links a {
+    display: block;
+    font-size: 15px;
+  }
+}
+
 /* ---------- Hero ---------- */
 .hero {
   background: var(--ink);
@@ -194,6 +253,14 @@ button {
   margin: 0;
 }
 .hero__cta { margin-top: 8px; width: fit-content; }
+
+@media (max-width: 600px) {
+  .hero { padding-top: 48px; }
+  .hero__title { font-size: clamp(32px, 9vw, 48px); }
+  .swatch-rail { margin-top: 40px; }
+  .container { padding: 0 18px; }
+  .shop { padding: 44px 0 64px; }
+}
 
 /* ---------- Swatch rail (signature element) ---------- */
 .swatch-rail {
