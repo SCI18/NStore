@@ -583,7 +583,7 @@
     "id": "wg-001",
     "category": "wigs",
     "image": "images/wg-001.jpg",
-    "price": 80.0,
+    "price": 150.0,
     "name": {
       "en": "Wig 001",
       "fr": "Perruque 001"
@@ -598,7 +598,7 @@
     "id": "wg-002",
     "category": "wigs",
     "image": "images/wg-002.jpg",
-    "price": 80.0,
+    "price": 150.0,
     "name": {
       "en": "Wig 002",
       "fr": "Perruque 002"
@@ -613,7 +613,7 @@
     "id": "wg-003",
     "category": "wigs",
     "image": "images/wg-003.jpg",
-    "price": 80.0,
+    "price": 200.0,
     "name": {
       "en": "Wig 003",
       "fr": "Perruque 003"
@@ -628,7 +628,7 @@
     "id": "wg-004",
     "category": "wigs",
     "image": "images/wg-004.jpg",
-    "price": 80.0,
+    "price": 150.0,
     "name": {
       "en": "Wig 004",
       "fr": "Perruque 004"
@@ -643,7 +643,7 @@
     "id": "wg-005",
     "category": "wigs",
     "image": "images/wg-005.jpg",
-    "price": 80.0,
+    "price": 150.0,
     "name": {
       "en": "Wig 005",
       "fr": "Perruque 005"
