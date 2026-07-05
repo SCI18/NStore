@@ -5,7 +5,7 @@ window.STORE_CONFIG = {
   whatsappNumber: "243975711734",
 
   // Email address orders should be sent to.
-  orderEmail: "nstore@gmail.com",
+  orderEmail: "nstoreorders@gmail.com",
 
   // Currency symbol shown next to prices.
   currencySymbol: "$",
