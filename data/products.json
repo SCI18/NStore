@@ -658,7 +658,7 @@
     "id": "wg-006",
     "category": "wigs",
     "image": "images/wg-006.jpg",
-    "price": 80.0,
+    "price": 135.0,
     "name": {
       "en": "Wig 006",
       "fr": "Perruque 006"
@@ -673,7 +673,7 @@
     "id": "wg-007",
     "category": "wigs",
     "image": "images/wg-007.jpg",
-    "price": 80.0,
+    "price": 35.0,
     "name": {
       "en": "Wig 007",
       "fr": "Perruque 007"
@@ -688,7 +688,7 @@
     "id": "wg-008",
     "category": "wigs",
     "image": "images/wg-008.jpg",
-    "price": 80.0,
+    "price": 20.0,
     "name": {
       "en": "Wig 008",
       "fr": "Perruque 008"
@@ -703,7 +703,7 @@
     "id": "wg-009",
     "category": "wigs",
     "image": "images/wg-009.jpg",
-    "price": 80.0,
+    "price": 185.0,
     "name": {
       "en": "Wig 009",
       "fr": "Perruque 009"
@@ -718,7 +718,7 @@
     "id": "wg-010",
     "category": "wigs",
     "image": "images/wg-010.jpg",
-    "price": 80.0,
+    "price": 55.0,
     "name": {
       "en": "Wig 010",
       "fr": "Perruque 010"
@@ -733,7 +733,7 @@
     "id": "wg-011",
     "category": "wigs",
     "image": "images/wg-011.jpg",
-    "price": 80.0,
+    "price": 75.0,
     "name": {
       "en": "Wig 011",
       "fr": "Perruque 011"
@@ -748,7 +748,7 @@
     "id": "wg-012",
     "category": "wigs",
     "image": "images/wg-012.jpg",
-    "price": 80.0,
+    "price": 85.0,
     "name": {
       "en": "Wig 012",
       "fr": "Perruque 012"
@@ -763,7 +763,7 @@
     "id": "wg-013",
     "category": "wigs",
     "image": "images/wg-013.jpg",
-    "price": 80.0,
+    "price": 250.0,
     "name": {
       "en": "Wig 013",
       "fr": "Perruque 013"
@@ -778,7 +778,7 @@
     "id": "wg-014",
     "category": "wigs",
     "image": "images/wg-014.jpg",
-    "price": 80.0,
+    "price": 35.0,
     "name": {
       "en": "Wig 014",
       "fr": "Perruque 014"
@@ -793,7 +793,7 @@
     "id": "wg-015",
     "category": "wigs",
     "image": "images/wg-015.jpg",
-    "price": 80.0,
+    "price": 50.0,
     "name": {
       "en": "Wig 015",
       "fr": "Perruque 015"
@@ -808,7 +808,7 @@
     "id": "wg-016",
     "category": "wigs",
     "image": "images/wg-016.jpg",
-    "price": 80.0,
+    "price": 120.0,
     "name": {
       "en": "Wig 016",
       "fr": "Perruque 016"
@@ -823,7 +823,7 @@
     "id": "wg-017",
     "category": "wigs",
     "image": "images/wg-017.jpg",
-    "price": 80.0,
+    "price": 75.0,
     "name": {
       "en": "Wig 017",
       "fr": "Perruque 017"
@@ -838,7 +838,7 @@
     "id": "wg-018",
     "category": "wigs",
     "image": "images/wg-018.jpg",
-    "price": 80.0,
+    "price": 135.0,
     "name": {
       "en": "Wig 018",
       "fr": "Perruque 018"
@@ -853,7 +853,7 @@
     "id": "wg-019",
     "category": "wigs",
     "image": "images/wg-019.jpg",
-    "price": 80.0,
+    "price": 75.0,
     "name": {
       "en": "Wig 019",
       "fr": "Perruque 019"
@@ -868,310 +868,10 @@
     "id": "wg-020",
     "category": "wigs",
     "image": "images/wg-020.jpg",
-    "price": 80.0,
+    "price": 135.0,
     "name": {
       "en": "Wig 020",
       "fr": "Perruque 020"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-021",
-    "category": "wigs",
-    "image": "images/wg-021.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 021",
-      "fr": "Perruque 021"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-022",
-    "category": "wigs",
-    "image": "images/wg-022.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 022",
-      "fr": "Perruque 022"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-023",
-    "category": "wigs",
-    "image": "images/wg-023.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 023",
-      "fr": "Perruque 023"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-024",
-    "category": "wigs",
-    "image": "images/wg-024.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 024",
-      "fr": "Perruque 024"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-025",
-    "category": "wigs",
-    "image": "images/wg-025.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 025",
-      "fr": "Perruque 025"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-026",
-    "category": "wigs",
-    "image": "images/wg-026.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 026",
-      "fr": "Perruque 026"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-027",
-    "category": "wigs",
-    "image": "images/wg-027.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 027",
-      "fr": "Perruque 027"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-028",
-    "category": "wigs",
-    "image": "images/wg-028.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 028",
-      "fr": "Perruque 028"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-029",
-    "category": "wigs",
-    "image": "images/wg-029.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 029",
-      "fr": "Perruque 029"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-030",
-    "category": "wigs",
-    "image": "images/wg-030.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 030",
-      "fr": "Perruque 030"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-031",
-    "category": "wigs",
-    "image": "images/wg-031.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 031",
-      "fr": "Perruque 031"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-032",
-    "category": "wigs",
-    "image": "images/wg-032.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 032",
-      "fr": "Perruque 032"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-033",
-    "category": "wigs",
-    "image": "images/wg-033.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 033",
-      "fr": "Perruque 033"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-034",
-    "category": "wigs",
-    "image": "images/wg-034.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 034",
-      "fr": "Perruque 034"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-035",
-    "category": "wigs",
-    "image": "images/wg-035.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 035",
-      "fr": "Perruque 035"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-036",
-    "category": "wigs",
-    "image": "images/wg-036.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 036",
-      "fr": "Perruque 036"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-037",
-    "category": "wigs",
-    "image": "images/wg-037.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 037",
-      "fr": "Perruque 037"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-038",
-    "category": "wigs",
-    "image": "images/wg-038.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 038",
-      "fr": "Perruque 038"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-039",
-    "category": "wigs",
-    "image": "images/wg-039.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 039",
-      "fr": "Perruque 039"
-    },
-    "description": {
-      "en": "Details pending — price and description to be confirmed with supplier.",
-      "fr": "Détails en attente — prix et description à confirmer avec la fournisseuse."
-    },
-    "options": []
-  },
-  {
-    "id": "wg-040",
-    "category": "wigs",
-    "image": "images/wg-040.jpg",
-    "price": 80.0,
-    "name": {
-      "en": "Wig 040",
-      "fr": "Perruque 040"
     },
     "description": {
       "en": "Details pending — price and description to be confirmed with supplier.",
