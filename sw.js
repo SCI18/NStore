@@ -1,4 +1,4 @@
-const CACHE_NAME = "nstore-shell-v1";
+const CACHE_NAME = "nstore-shell-v2";
 const SHELL_ASSETS = [
   "/",
   "/index.html",
@@ -10,12 +10,10 @@ const SHELL_ASSETS = [
   "/js/i18n.js",
   "/js/cart.js",
   "/js/app.js",
+  "/js/nav.js",
   "/icons/icon-192.png",
   "/icons/icon-512.png"
 ];
-
-// Paths that change often — always try the network first so stock/price updates show immediately.
-const NETWORK_FIRST_PREFIXES = ["/data/", "/lang/", "/images/"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -33,26 +31,21 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
+// Network-first for everything: always serve the latest version when online.
+// Falls back to cache only when the network request fails (offline).
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
-
-  const isNetworkFirst = NETWORK_FIRST_PREFIXES.some((prefix) => url.pathname.startsWith(prefix));
-
-  if (isNetworkFirst) {
-    event.respondWith(
-      fetch(event.request)
-        .then((res) => {
-          const clone = res.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-          return res;
-        })
-        .catch(() => caches.match(event.request))
-    );
-    return;
-  }
+  if (event.request.method !== "GET") return;
 
   event.respondWith(
-    caches.match(event.request).then((cached) => cached || fetch(event.request))
+    fetch(event.request)
+      .then((res) => {
+        const clone = res.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+        return res;
+      })
+      .catch(() => caches.match(event.request))
   );
 });
+

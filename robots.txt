@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nstore.pages.dev/sitemap.xml
