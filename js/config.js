@@ -12,10 +12,10 @@ window.STORE_CONFIG = {
 
   // Default language: "en" or "fr"
   defaultLang: "en"
-},
 
-emailjs: {
-  serviceId: "service_lkwdphi",
-  templateId: "template_g8gfahq",
-  publicKey: "dO8v72KmZoJqQb03P"
+  emailjs: {
+    serviceId: "service_lkwdphi",
+    templateId: "template_g8gfahq",
+    publicKey: "dO8v72KmZoJqQb03P"
+  },
 };
