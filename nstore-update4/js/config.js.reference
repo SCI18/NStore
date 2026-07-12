@@ -1,0 +1,31 @@
+// EDIT THESE VALUES for your store — nothing else in the app needs to change.
+window.STORE_CONFIG = {
+  // WhatsApp number in international format, digits only, no + or spaces.
+  // Example: for +1 555 123 4567 use "15551234567"
+  whatsappNumber: "15551234567",
+
+  // Email address orders should be sent to.
+  orderEmail: "orders@yourstore.com",
+
+  // Currency symbol shown next to prices.
+  currencySymbol: "$",
+
+  // Default language: "en" or "fr"
+  defaultLang: "en",
+
+  // Optional — used on the Contact page. Leave as "" to hide that card entirely.
+  instagramHandle: "",
+  address: "",
+
+  // Optional — sends a copy of every order to your own inbox for tracking,
+  // regardless of whether the customer checks out via WhatsApp or email.
+  // See README for how to get these three values from emailjs.com (free).
+  // Leave serviceId blank to turn this feature off entirely.
+  emailjs: {
+    serviceId: "",
+    templateId: "",
+    publicKey: ""
+  },
+  // Where sale notifications get sent. Leave blank to reuse orderEmail above.
+  salesNotificationEmail: ""
+};

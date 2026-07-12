@@ -37,13 +37,21 @@ def compress(img, ext, quality):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--max-width", type=int, default=1200, help="Max width in pixels (default 1200)")
-    parser.add_argument("--quality", type=int, default=80, help="JPEG quality 1-95 (default 80)")
+    parser.add_argument("--max-width", type=int, default=800, help="Max width in pixels (default 800)")
+    parser.add_argument("--quality", type=int, default=75, help="JPEG quality 1-95 (default 75)")
     parser.add_argument("--dry-run", action="store_true", help="Preview savings without changing files")
+    parser.add_argument("--from-originals", action="store_true",
+                         help="Re-process from images/originals/ instead of images/ — use this when "
+                              "re-running with different settings, to avoid re-compressing an already-compressed file")
     args = parser.parse_args()
 
     if not os.path.isdir(IMAGES_DIR):
         print(f"No images/ folder found at '{IMAGES_DIR}'.")
+        sys.exit(1)
+
+    source_dir = ORIGINALS_DIR if args.from_originals else IMAGES_DIR
+    if args.from_originals and not os.path.isdir(ORIGINALS_DIR):
+        print(f"No '{ORIGINALS_DIR}' folder found — nothing has been optimized yet, so there's nothing to re-process.")
         sys.exit(1)
 
     if not args.dry_run:
@@ -53,17 +61,18 @@ def main():
     total_after = 0
     changed = 0
 
-    for name in sorted(os.listdir(IMAGES_DIR)):
-        path = os.path.join(IMAGES_DIR, name)
-        if not os.path.isfile(path):
+    for name in sorted(os.listdir(source_dir)):
+        source_path = os.path.join(source_dir, name)
+        dest_path = os.path.join(IMAGES_DIR, name)
+        if not os.path.isfile(source_path):
             continue
         base, ext = os.path.splitext(name)
         if ext.lower() not in EXTS:
             continue
 
-        size_before = os.path.getsize(path)
+        size_before = os.path.getsize(dest_path if os.path.exists(dest_path) else source_path)
 
-        with Image.open(path) as img:
+        with Image.open(source_path) as img:
             width, height = img.size
             needs_resize = width > args.max_width
             work_img = img.copy()
@@ -89,9 +98,9 @@ def main():
         if not args.dry_run:
             backup_path = os.path.join(ORIGINALS_DIR, name)
             if not os.path.exists(backup_path):
-                with open(path, "rb") as src, open(backup_path, "wb") as dst:
+                with open(source_path, "rb") as src, open(backup_path, "wb") as dst:
                     dst.write(src.read())
-            with open(path, "wb") as f:
+            with open(dest_path, "wb") as f:
                 f.write(new_bytes)
 
     if changed == 0:
