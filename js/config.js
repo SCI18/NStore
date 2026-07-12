@@ -11,7 +11,7 @@ window.STORE_CONFIG = {
   currencySymbol: "$",
 
   // Default language: "en" or "fr"
-  defaultLang: "en"
+  defaultLang: "en",
 
   emailjs:{
     serviceId: "service_lkwdphi",
